@@ -1,3 +1,5 @@
+alert("Hello! I am an alert box!!");
+
 var sheep_count, other_count;
 
 function getNumberOrString(value) {
