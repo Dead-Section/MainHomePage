@@ -11,7 +11,7 @@ function getNumberOrString(value) {
 
 
 
-document.getElementById('button').addEventListener('click', (event) => {
+document.getElementById('button').addEventListener('click', => {
   let element_outputName = document.getElementById('outputName');
   element_outputName.innerText = getNumberOrString(document.getElementById('inputName').value);
   let element_outputText = document.getElementById('outputText');
