@@ -1,4 +1,3 @@
-
 function getNumberOrString(value) {
   // Convert a string value to a number if possible
   let number_value = Number(value);
@@ -11,7 +10,7 @@ function getNumberOrString(value) {
 
 
 
-document.getElementById('button').addEventListener('click', => {
+document.getElementById('button').addEventListener('click', (event) => {
   let element_outputName = document.getElementById('outputName');
   element_outputName.innerText = getNumberOrString(document.getElementById('inputName').value);
   let element_outputText = document.getElementById('outputText');
